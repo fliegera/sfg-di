@@ -7,7 +7,7 @@ import guru.springframework.sfgdi.services.PetService;
 /**
  * Created by jt on 12/28/19.
  */
-@Controller
+@Controller()
 public class PetController {
 
 	private final PetService petService;
